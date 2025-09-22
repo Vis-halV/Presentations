@@ -150,5 +150,5 @@ Uses `createNativeStackNavigator` with screens:
 
 ---
 
-## Thank you &hearts; 
-for spending your valuable time with us 
+## Thank you ❤ 
+for spending your valuable time with us...
