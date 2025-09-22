@@ -142,10 +142,11 @@ Uses `createNativeStackNavigator` with screens:
 
 ## 8. Summary
 
-✅ Real-time GPS via MQTT <!-- .element: class="fragment fade-in" -->
-✅ Dynamic route management <!-- .element: class="fragment fade-in" -->
-✅ EAS builds (APK & AAB) <!-- .element: class="fragment fade-in" -->
-✅ Scalable, transport-ready solution <!-- .element: class="fragment fade-in" -->
+* ✅ Real-time GPS via MQTT <!-- .element: class="fragment fade-in" -->
+* ✅ Dynamic route management <!-- .element: class="fragment fade-in" -->
+* ✅ EAS builds (APK & AAB) <!-- .element: class="fragment fade-in" -->
+* ✅ Scalable, transport-ready solution <!-- .element: class="fragment fade-in" -->
+
 
 ---
 
