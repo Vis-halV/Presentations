@@ -5,6 +5,60 @@
     <title>Driver App Project – SIH 2025</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/sky.css">
+
+    <style>
+      /* Global dark background */
+      .reveal {
+        background-color: #333333;
+      }
+
+      /* Light text for all slides */
+      .reveal .slides section {
+        color: #ffffff;
+      }
+
+      /* Ensure fragments are visible */
+      .reveal .slides section .fragment {
+        color: #ffffff;
+      }
+
+      /* Optional: make code blocks stand out */
+      .reveal code {
+        background-color: #222222;
+        color: #ffdd99;
+        padding: 2px 4px;
+        border-radius: 3px;
+      }
+
+      /* Optional: headings slightly brighter */
+      .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+        color: #f2f2f2;
+      }
+
+      .reveal code.inline {
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow: visible;
+        display: inline-block;
+      }
+
+      /* Remove scrollbars from all code blocks */
+      .reveal pre code {
+        white-space: pre-wrap;    /* Wrap lines instead of scrolling */
+        overflow: hidden;         /* Hide scrollbars */
+        display: block;
+        word-break: break-word;   /* Break long words if needed */
+      }
+
+      /* Optional: style code blocks */
+      .reveal pre {
+        background-color: #222222;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+      }
+    </style>
+
   </head>
   <body>
     <div class="reveal">
@@ -22,12 +76,11 @@
     <script>
       Reveal.initialize({
         hash: true,
-        transition: 'zoom',
-        backgroundTransition: 'fade',
+        transition: 'zoom',               
+        backgroundTransition: 'fade',     
         plugins: [ RevealMarkdown, RevealHighlight ],
 
-        // Parallax background
-        parallaxBackgroundImage: 'https://picsum.photos/1920/1080?blur',
+        parallaxBackgroundImage: '',
         parallaxBackgroundSize: '2100px 1200px',
         parallaxBackgroundHorizontal: 200,
         parallaxBackgroundVertical: 100,

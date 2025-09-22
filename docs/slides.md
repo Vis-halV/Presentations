@@ -1,4 +1,4 @@
-# Driver App Project – Detailed Summary & Report  
+## Driver App Project – Detailed Summary & Report  
 **SIH-2025**
 
 <img src="https://cdn-icons-png.flaticon.com/512/741/741407.png" alt="Bus App" width="200"/>
@@ -79,8 +79,17 @@ Uses `createNativeStackNavigator` with screens:
 {
   "cli": { "version": ">= 3.0.0" },
   "build": {
-    "preview": { "distribution": "internal", "android": { "buildType": "apk" } },
-    "release": { "distribution": "store", "android": { "buildType": "app-bundle" } }
+    "preview": { 
+        "distribution": "internal", 
+        "android": { "buildType": "apk" 
+        } 
+    },
+    "release": { 
+        "distribution": "store", 
+        "android": { 
+            "buildType": "app-bundle" 
+        } 
+    }
   }
 }
 ````
@@ -138,5 +147,7 @@ Uses `createNativeStackNavigator` with screens:
 ✅ EAS builds (APK & AAB) <!-- .element: class="fragment fade-in" -->
 ✅ Scalable, transport-ready solution <!-- .element: class="fragment fade-in" -->
 
-<img src="https://cdn-icons-png.flaticon.com/512/1946/1946436.png" width="200"/>
-```
+---
+
+## Thank you &hearts; 
+for spending your valuable time with us 
