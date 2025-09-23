@@ -110,27 +110,6 @@ Uses `createNativeStackNavigator` with screens:
 
 ---
 
-## 6. Potential Q\&A
-
-**Q:** Why MQTT?
-**A:** Lightweight, low-latency, ideal for real-time location updates <!-- .element: class="fragment fade-in" -->
-
-**Q:** How is GPS accuracy achieved?
-**A:** Expo-location BestForNavigation, foreground permission, 1m/1s interval <!-- .element: class="fragment fade-in" -->
-
-**Q:** How handle route changes?
-**A:** Stop GPS + MQTT, reinitialize with new route <!-- .element: class="fragment fade-in" -->
-
-**Q:** APK vs AAB?
-
-* APK → direct install
-* AAB → Play Store optimized <!-- .element: class="fragment fade-in" -->
-
-**Q:** Battery optimization?
-**A:** Publish only necessary GPS data, use intervals efficiently <!-- .element: class="fragment fade-in" -->
-
----
-
 ## 7. Build & Release
 
 * Release command: `eas build -p android --profile release` <!-- .element: class="fragment fade-in" -->
