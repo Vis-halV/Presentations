@@ -2,69 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Driver App Project – SIH 2025</title>
+    <title>Flow Control – Data Communication & Networking</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/sky.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css">
 
     <style>
-      /* Global dark background */
+      /* Global light background */
       .reveal {
-        background-color: #333333;
+        background-color: #f9f9f9;
       }
 
-      /* Light text for all slides */
+      /* Dark text for readability */
       .reveal .slides section {
-        color: #ffffff;
+        color: #222222;
       }
 
-      /* Ensure fragments are visible */
-      .reveal .slides section .fragment {
-        color: #ffffff;
+      /* Headings styled slightly blue */
+      .reveal h1, .reveal h2, .reveal h3 {
+        color: #004466;
       }
 
-      /* Optional: make code blocks stand out */
-      .reveal code {
-        background-color: #222222;
-        color: #ffdd99;
-        padding: 2px 4px;
-        border-radius: 3px;
-      }
-
-      /* Optional: headings slightly brighter */
-      .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
-        color: #f2f2f2;
-      }
-
+      /* Lists clean */
       .reveal .slides section ul {
-        list-style-position: inside;   /* aligns bullets/checkmarks neatly */
-        padding-left: 0;               /* removes extra indentation */
+        list-style-position: inside;
+        padding-left: 0;
       }
 
-
-      .reveal code.inline {
-        white-space: pre-wrap;
-        word-break: break-word;
-        overflow: visible;
-        display: inline-block;
+      /* Code styling */
+      .reveal code {
+        background-color: #eeeeee;
+        color: #333333;
+        padding: 2px 4px;
+        border-radius: 4px;
       }
 
-      /* Remove scrollbars from all code blocks */
-      .reveal pre code {
-        white-space: pre-wrap;    /* Wrap lines instead of scrolling */
-        overflow: hidden;         /* Hide scrollbars */
-        display: block;
-        word-break: break-word;   /* Break long words if needed */
-      }
-
-      /* Optional: style code blocks */
       .reveal pre {
-        background-color: #222222;
+        background-color: #f0f0f0;
         padding: 10px;
         border-radius: 5px;
         margin: 10px 0;
       }
-    </style>
 
+      /* Highlight fragments */
+      .reveal .slides section .fragment {
+        color: #004466;
+        font-weight: bold;
+      }
+
+      /* Add subtle drop shadow to images */
+      .reveal section img {
+        box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+        border-radius: 8px;
+      }
+    </style>
   </head>
   <body>
     <div class="reveal">
@@ -82,15 +72,11 @@
     <script>
       Reveal.initialize({
         hash: true,
-        transition: 'zoom',               
-        backgroundTransition: 'fade',     
+        transition: 'slide',
+        backgroundTransition: 'fade',
         plugins: [ RevealMarkdown, RevealHighlight ],
-
-        parallaxBackgroundImage: '',
-        parallaxBackgroundSize: '2100px 1200px',
-        parallaxBackgroundHorizontal: 200,
-        parallaxBackgroundVertical: 100,
       });
     </script>
   </body>
 </html>
+```
